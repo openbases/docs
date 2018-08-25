@@ -1,6 +1,6 @@
-# Open Research Experiments
+# Open Research Bases
 
-This is the future home of the [Open Research Experiments](https://openbases.github.io) 
+This is the future home of the [Open Research Bases](https://openbases.github.io) 
 Group! We create template bases for the [Open Journals](https://www.github.com/openjournals)
 organization of journals to drive reproducible, automated research and software
 development.
