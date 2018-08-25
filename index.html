@@ -58,9 +58,9 @@
 
               var hi = k / (cols - 1);
 
-              var type = !!(j % 2) ? 'Squiggle' : 'Nonagon';
+              var type = !!(j % 2) ? 'Nonagon' : 'Nonagon';
               var height = !!(j % 2) ? width / 3 : width;
-              var shape = two['make' + type](width, height, Math.floor(Math.random() * 3) + 3);
+              var shape = two['make' + type](100, 100, Math.floor(Math.random() * 3) + 3);
               var color = colors[Math.floor(Math.random() * colors.length)];
 
               shape.rotation = Math.floor(Math.random() * 4) * Math.PI / 2 + Math.PI / 4;
@@ -69,7 +69,7 @@
               if (j % 2) {
                 shape.noFill();
                 shape.stroke = color;
-                shape.linewidth = 4;
+                shape.linewidth = 10;
                 shape.cap = 'round';
               } else {
                 shape.noStroke();
@@ -140,7 +140,7 @@
 
         Two.prototype.makeSquiggle = function(width, height, phi) {
 
-          var amt = 100;
+          var amt = 64;
 
           var squiggle = this.makeCurve(
             _.map(_.range(amt), function(i) {
@@ -161,6 +161,26 @@
 
           width /= 2;
           height /= 2;
+
+          var shape = this.makePath(
+            _.map(_.range(sides), function(i) {
+              var pct = i / sides;
+              var theta = Math.PI * 2 * pct - Math.PI / 2;
+              var x = width * Math.cos(theta);
+              var y = height * Math.sin(theta);
+              return new Two.Anchor(x, y);
+            })
+          );
+
+          return shape;
+
+        };
+
+        Two.prototype.makeTriangle = function(width, height, sides) {
+
+          width /= 2;
+          height /= 2;
+          sides /= 3;
 
           var shape = this.makePath(
             _.map(_.range(sides), function(i) {
