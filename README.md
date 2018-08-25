@@ -5,7 +5,7 @@ Group! We create template bases for the [Open Journals](https://www.github.com/o
 organization of journals to drive reproducible, automated research and software
 development.
 
-![img/openbases-big.png](img/openbases-big.png)
+![img/openbases-petri.png](img/openbases-petri.png)
 
 ## Resources
 
