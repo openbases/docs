@@ -15,6 +15,15 @@ development.
  - [JsPsych](https://www.jspsych.org/)
  - [Robots](https://github.com/expfactory/expfactory-robots)
 
+## Templates
+
+> Where are the bases?
+
+We are putting together the first toy examples that will put together a selection of components from above
+to generate a fully reproducible generation to publication pipeline! Stay tuned.
+
+## Support
+
 Please don't hesitate to reach out and 
 [ask us a question](https://www.github.com/openbases/openbases.github.io/issues), 
 or contribute!
