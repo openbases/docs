@@ -30,7 +30,8 @@ We use [mkdocs](https://www.mkdocs.org) because it's  easy to write markdown fil
 Here are the dependencies you should install:
 
 ```
-pip install mkdocs mkdocs-material click-man markdown-include
+pip install -r requirements.txt
+# pip install mkdocs mkdocs-material click-man markdown-include
 ```
 
 The resulting docs will be built from [src](src) into a separate (one level up) [openbases.github.io]. 
