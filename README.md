@@ -21,11 +21,21 @@ The following open source projects are part of the open bases:
 > Where are the bases?
 
 We are putting together the first toy examples that will put together a selection of components from above
-to generate a fully reproducible generation to publication pipeline! Stay tuned.
+to generate a fully reproducible generation to publication pipeline! They will each be
+separate repos under the [openbases](https://www.github.com/openbases) organization. Stay tuned.
 
 ## Development
 
-We use [mkdocs](https://www.mkdocs.org) because it's  easy to write markdown files. Specifically, we are using the [material](https://squidfunk.github.io/mkdocs-material/) theme.
+We use [mkdocs](https://www.mkdocs.org) because it's  easy to write markdown files. Specifically, we are using the [material](https://squidfunk.github.io/mkdocs-material/) theme. How does it work?
+
+ 1. You fork and clone the [docs repository](https://www.github.com/openbases/docs)
+ 2. You develop and preview locally.
+ 3. When you like your work, you open a pull request back to the upstream docs repository
+ 4. Your pull request is [reviewed and previewed](https://circleci.com/gh/openbases/docs) on CircleCI
+ 5. Merging will build and deploy the docs to the [openbases.github.io](https://www.github.com/openbases.github.io) repo that renders directly at [openbases.github.io](https://openbases.github.io).
+
+That's it! Any push to master will trigger this flow of events, so for this reason:
+ - If you need to push changes (e.g., to the README) that don't warrant a full review and preview, just name your branch something that begins with dev, like `dev/update-readme` and the CI will skip it.
 
 ### Local
 Here are the dependencies you should install:
@@ -36,32 +46,32 @@ pip install -r requirements.txt
 ```
 
 The resulting docs will be built from [src](src) into a separate (one level up) [openbases.github.io]. 
-repository.  You should first clone both repos:
+repository.  **You should not be pushing directly to openbases.github.io** but rather do it via
+pull requests here. Here is how to make changes. First, clone the repository:
+
 
 ```bash
-git clone https://www.github.com/openbases/openbases.github.io
 git clone https://www.github.com/openbases/docs
-```
-
-To have this structure
-
-```bash
-openbases.github.io/
-docs/
-```
-
-The build and serve happens like this!
-
-```
-# Go into the docs bases
 cd docs
+```
 
-# Build and serve!
+Then serve, and this is cool because it will update automatically!
+
+```
 mkdocs serve
 ```
+
 Then open your browser to [http://127.0.0.1:8000](http://127.0.0.1:8000)
-The code is updated in ../openbases.github.io. You can commit and push to 
-both. Note that @vsoch might make this automated in the future, it's ok for now.
+If you want to build, then create a directory outside of your repository like this:
+
+```
+mkdir -p ../openbases.github.io
+mkdocs build
+```
+
+The code is updated in ..`/openbases.github.io`. When you are ready, push to your
+branch and open a pull request.
+
 
 ### Mkdocs Quick Reference
 

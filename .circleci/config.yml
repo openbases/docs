@@ -1,3 +1,12 @@
+# This is a recipe to build a mkdocs repository. The only environment variables
+# required are:
+# DEPLOY_GITHUB_URL: the URL (ending in git) to deploy the site to, 
+#                    should be organization (<organization>.github.io)
+#
+# You might also want to edit the "openbases.github.io" repo name scattered
+# in various sections. It's not important for functionality, but could be
+# customized for your repo.
+
 # Defaults
 defaults: &defaults
   docker:
