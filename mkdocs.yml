@@ -1,0 +1,50 @@
+site_name: Open Research Bases
+site_description: 'Open Research Bases for reproducible build, deploy, and publish'
+site_author: 'OpenBases Github Maintainers'
+repo_name: 'openbases/openbases.github.io'
+repo_url: 'https://github.com/openbases/openbases.github.io'
+
+theme: 
+  name: material
+  logo: 'img/logo/color/openbases-shapes-color.png'
+  custom_dir: 'theme'
+  palette:
+    primary: 'blue'
+    accent: 'red'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/openbases'
+    - type: 'code'
+      link: 'http://hub.docker.com/r/openbases'
+    - type: 'twitter'
+      link: 'https://twitter.com/vsoch'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/vsochat'
+extra_css:
+  - 'assets/css/extra.css'
+extra_javascript:
+  - 'assets/js/extra.js'
+
+markdown_extensions:
+  - markdown_include.include:
+      base_path: src
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+docs_dir: src
+site_dir: ../openbases.github.io
+
+pages:
+    - Home: index.md
+    - About: about.md
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - Vanessa Sochat and OpenBases Maintainers'
