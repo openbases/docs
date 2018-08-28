@@ -137,9 +137,7 @@ workflows:
           filters:
             branches:
               ignore:
-                - gh-pages
                 - /dev?/.*/
-                - master
             tags:
               only: /.*/
 
@@ -149,9 +147,7 @@ workflows:
           filters:
             branches:
               ignore:
-                - gh-pages
                 - /dev?/.*/
-                - master
             tags:
               only: /.*/
 
