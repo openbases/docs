@@ -8,12 +8,11 @@ development.
 ## Resources
 The following open source projects form the open bases:
 
- - [Open Journals](https://www.github.com/openjournals) [publication]
- - [The Experiment Factory](https://expfactory.github.io) [deployment]
- - [LabJS](https://labjs.readthedocs.io) [experiment]
- - [JsPsych](https://www.jspsych.org/) [experiment]
- - [Robots](https://github.com/expfactory/expfactory-robots) [testing]
-
+ - [Open Journals](https://www.github.com/openjournals)
+ - [The Experiment Factory](https://expfactory.github.io)
+ - [LabJS](https://labjs.readthedocs.io)
+ - [JsPsych](https://www.jspsych.org/)
+ - [Robots](https://github.com/expfactory/expfactory-robots)
 
 
 ## Templates
@@ -26,7 +25,7 @@ to generate a fully reproducible generation to publication pipeline! Stay tuned.
 ## Development
 
 Documentation is done with [mkdocs](https://www.mkdocs.org) because it's easy to write markdown files.
-If you want to contribute, you can just change the content of the [src](../src) folder.
+If you want to contribute, you can just change the content of the [src](https://github.com/openbases/docs/tree/master/src) folder.
 For details on customization and using the theme, please see the [material](https://squidfunk.github.io/mkdocs-material/) theme pages.
 
 ### Local
