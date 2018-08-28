@@ -34,8 +34,7 @@ We use [mkdocs](https://www.mkdocs.org) because it's  easy to write markdown fil
  4. Your pull request is [reviewed and previewed](https://circleci.com/gh/openbases/docs) on CircleCI
  5. Merging will build and deploy the docs to the [openbases.github.io](https://www.github.com/openbases.github.io) repo that renders directly at [openbases.github.io](https://openbases.github.io).
 
-That's it! Any push to master will trigger this flow of events, so for this reason:
- - If you need to push changes (e.g., to the README) that don't warrant a full review and preview, just name your branch something that begins with dev, like `dev/update-readme` and the CI will skip it.
+That's it! Any push to master will trigger this flow of events, to be sure that the two repos stay in sync. The updated (deployed) pages are tagged with the commit here.
 
 ### Local
 Here are the dependencies you should install:
