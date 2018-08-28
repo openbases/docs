@@ -11,11 +11,6 @@ install: &install
     name: Install parallel gzip, gettext, python3, and jq
     command: apk add --no-cache pigz python3 gettext jq
 
-# Environment
-sourceenv: &sourceenv
-    name: Source environment variables from the BASH_ENV
-    command: source $BASH_ENV 
-
 githubsetup: &githubsetup
     name: Prepare Github account credentials
     command: |
@@ -42,7 +37,6 @@ mkdocs: &mkdocs
         . venv/bin/activate
         pip install -r /tmp/src/requirements.txt
         mkdocs --version
-        source ${BASH_ENV}
         cd /tmp/src
         echo "Building documentation"
         mkdir -p ../openbases.github.io
@@ -104,7 +98,6 @@ jobs:
           name: Deploy to Github Pages
           no_output_timeout: 40m
           command: |
-            source ${BASH_ENV}
             if [[ -n "${GITHUB_EMAIL:-}" ]];
                 then
                     echo "=== Deploying site to Github Pages ==="
