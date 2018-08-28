@@ -1,0 +1,181 @@
+# Defaults
+defaults: &defaults
+  docker:
+    - image: docker:18.01.0-ce-git
+  working_directory: /tmp/src
+  environment:
+    - DEPLOY_GITHUB_URL: git@github.com:openbases/openbases.github.io.git
+
+# Installation
+install: &install
+    name: Install parallel gzip, gettext, python3, and jq
+    command: apk add --no-cache pigz python3 gettext jq
+
+# Environment
+sourceenv: &sourceenv
+    name: Source environment variables from the BASH_ENV
+    command: source $BASH_ENV 
+
+githubsetup: &githubsetup
+    name: Prepare Github account credentials
+    command: |
+        # Only proceed if we minimally have a Github email
+        if [[ -n "${GITHUB_EMAIL:-}" ]];
+            then
+                echo "Preparing Github account credentials"
+                git config --global user.email $GITHUB_EMAIL
+                # If username is defined, use it (otherwuse use circle project)
+                if [[ -n "${GITHUB_USER:-}" ]];
+                    then
+                    git config --global user.name $GITHUB_USER
+                else
+                    git config --global user.name $CIRCLE_PROJECT_USERNAME
+                fi
+        fi
+
+mkdocs: &mkdocs
+    name: Run mkdocs to build docs and save as artifacts
+    no_output_timeout: 60m
+    command: |
+        echo "0. Installing dependencies..."
+        python3 -m venv venv
+        . venv/bin/activate
+        pip install -r /tmp/src/requirements.txt
+        mkdocs --version
+        source ${BASH_ENV}
+        cd /tmp/src
+        echo "Building documentation"
+        mkdir -p ../openbases.github.io
+        mkdocs build
+        ls ../openbases.github.io
+
+
+################################################################################
+# Jobs
+################################################################################
+
+version: 2
+jobs:
+  setup:
+    <<: *defaults
+    steps:
+      - run: *install
+      - run: *githubsetup
+
+  build:
+    <<: *defaults
+    steps:
+      - run: *install
+      - restore_cache:
+          keys:
+            - mkdocs-v1-{{ .Branch }}
+          paths:
+            - /tmp/cache/container.tar.gz
+      - checkout
+      - run: *mkdocs
+      - store_artifacts:
+          path: /tmp/openbases.github.io
+          destination: openbases.github.io
+      - persist_to_workspace:
+          root: /tmp
+          paths:
+            - cache/container.tar.gz
+            - src
+            - openbases.github.io
+
+  update_cache:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /tmp
+      - save_cache:
+         key: mkdocs-v1-{{ .Branch }}
+         paths:
+            - /tmp/cache/container.tar.gz
+
+  deploy:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /tmp
+      - setup_remote_docker
+      - run: *githubsetup
+      - run:
+          name: Deploy to Github Pages
+          no_output_timeout: 40m
+          command: |
+            source ${BASH_ENV}
+            if [[ -n "${GITHUB_EMAIL:-}" ]];
+                then
+                    echo "=== Deploying site to Github Pages ==="
+                    echo "1. Checking out Github pages repo"
+                    ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+                    git clone "${DEPLOY_GITHUB_URL}" out
+                    cp -R out backup
+                    cd out
+                    echo "2. Removing current content"
+                    git rm -rf .
+                    echo "3. Copying new content"
+                    cp -R /tmp/openbases.github.io/* $PWD
+                    git add -A;
+                    git commit -m "Automated deployment to GitHub Pages ${CIRCLE_SHA1}" --allow-empty
+                    git push origin master
+            else
+                echo "GITHUB_EMAIL not set, skipping manifest deploy to Github pages"
+            fi
+
+################################################################################
+# Workflows
+################################################################################
+
+
+workflows:
+  version: 2
+  build_deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+                - /dev?/.*/
+                - master
+            tags:
+              only: /.*/
+
+      - update_cache:
+          requires:
+            - build
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+                - /dev?/.*/
+                - master
+            tags:
+              only: /.*/
+
+      # Hold to manually approve art
+      - hold:
+          type: approval
+          requires:
+           - build
+           - update_cache
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+                - /dev?/.*/
+                - master
+
+      # Do final deployment
+      - deploy:
+          requires:
+            - build
+            - update_cache
+            - hold
+          filters:
+            branches:
+              only: master
+            tags:
+              only: /.*/

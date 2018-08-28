@@ -1,0 +1,4 @@
+mkdocs==0.17.4
+mkdocs-material==2.9.1
+click-man==6.7
+markdown-include==0.5.1
