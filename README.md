@@ -54,11 +54,21 @@ The build and serve happens like this!
 # Go into the docs bases
 cd docs
 
-# Build and serve!
+# Preview to work on
 mkdocs serve
 ```
+
 Then open your browser to [http://127.0.0.1:8000](http://127.0.0.1:8000)
-The code is updated in ../openbases.github.io. You can commit and push to 
+
+### Deploy
+When you are ready to deploy, need to run the build command, and then update
+the openbases.github.io repository.
+
+```bash
+mkdocs build
+```
+
+The code is updated in ../openbases.github.io. You can commit and push to
 both. Note that @vsoch might make this automated in the future, it's ok for now.
 
 ### Mkdocs Quick Reference
