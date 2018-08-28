@@ -8,6 +8,7 @@ development.
 ![img/openbases-petri.png](img/openbases-petri.png)
 
 ## Resources
+The following open source projects are part of the open bases:
 
  - [Open Journals](https://www.github.com/openjournals)
  - [The Experiment Factory](https://expfactory.github.io)
