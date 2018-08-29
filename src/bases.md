@@ -1,12 +1,18 @@
 # Open Bases
 
-## Templates
-
-Each of the following is a builder template, typically including all steps to:
+An open base template is a combination of components, including experiment
+templates, testing tools, and deployment options to produce a full development
+through publication reproducible workflow.
 
 ```
 develop --> version control --> build --> test --> deploy --> publish
 ```
+
+## Templates
+
+Each of the following is a builder template, typically including all steps to
+help you with development through deployment and publication.
+
 
 !!! info "Labjs Builder"
     Build your experiment with the LabJS builder interface, and export it into a Github 
@@ -31,17 +37,17 @@ develop --> version control --> build --> test --> deploy --> publish
 
 | Name  | Repository | Documentation |
 | ----- | -----------|---------------|
-| LabJS | https://github.com/FelixHenninger/lab.js  | https://labjs.readthedocs.io |
-| JSPsych | https://github.com/jspsych/jsPsych  | https://www.jspsych.org/ |
-| Experiment Factory Library | https://expfactory.github.io/experiments | https://expfactory.github.io/generate |
-| Survey Builder | https://github.com/expfactory/survey-generator | https://expfactory.github.io/integration-surveys |
+| LabJS | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  | [labjs.readthedocs.io](https://labjs.readthedocs.io) |
+| JSPsych |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  | [https://www.jspsych.org/](https://www.jspsych.org/) |
+| Experiment Factory Library | [https://expfactory.github.io/experiments](https://expfactory.github.io/experiments) | [https://expfactory.github.io/generate](https://expfactory.github.io/generate) |
+| Survey Builder | [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [https://expfactory.github.io/integration-surveys](https://expfactory.github.io/integration-surveys) |
 
 ## Testing Robots
 
 | Name  | Repository | Documentation |
 | ----- | -----------|---------------|
-| Expfactory Robots | https://github.com/expfactory/expfactory-robots  | https://expfactory.github.io/integration-robots |
-| JoSS Robot | TBA | TBA |
+| Expfactory Robots | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots)  | [https://expfactory.github.io/integration-robots](https://expfactory.github.io/integration-robots) |
+| JoSS Robot | |  |
 
 
 ## Reproducible Deployments and Data Archive

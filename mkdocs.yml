@@ -19,8 +19,6 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/openbases'
-    - type: 'code'
-      link: 'http://hub.docker.com/r/openbases'
     - type: 'twitter'
       link: 'https://twitter.com/vsoch'
     - type: 'linkedin'
