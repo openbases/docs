@@ -44,6 +44,7 @@ site_dir: ../openbases.github.io
 
 pages:
     - Home: index.md
+    - Bases: bases.md
     - About: about.md
 
 # Copyright
