@@ -42,12 +42,12 @@ help you with development through deployment and publication.
 | Experiment Factory Library | [https://expfactory.github.io/experiments](https://expfactory.github.io/experiments) | [https://expfactory.github.io/generate](https://expfactory.github.io/generate) |
 | Survey Builder | [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [https://expfactory.github.io/integration-surveys](https://expfactory.github.io/integration-surveys) |
 
-## Testing Robots
+## Robots
 
 | Name  | Repository | Documentation |
 | ----- | -----------|---------------|
 | Expfactory Robots | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots)  | [https://expfactory.github.io/integration-robots](https://expfactory.github.io/integration-robots) |
-| JoSS Robot | |  |
+| JoSS Robot (whedon) | [openbases/whedon](https://www.github.com/openbases/whedon) | [https://www.github.com/openbases/whedon](https://www.github.com/openbases/whedon) |
 
 
 ## Reproducible Deployments and Data Archive
