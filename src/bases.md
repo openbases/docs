@@ -51,6 +51,14 @@ help you with development through deployment and publication.
 | Whedon Python | [openbases/whedon-python][https://www.github.com/openbases/whedon-python) | Helper functions for Whedon | https://openbases.github.io/whedon-python/ |
 | Whedon Docker | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | https://www.github.com/openbases/whedon |
 
+
+## Documentation
+
+| Name  | Repository | Description |
+| ----- | -----------|-------------|
+| Open Bases Jekyll Theme | [openbases/openbases-jekyll-theme](https://github.com/openbases/openbases-jekyll-theme) | A starter template for a "docs" folder for Github Pages |
+
+
 ## Reproducible Deployments and Data Archive
 
 | Name  | Repository | Documentation |
