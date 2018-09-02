@@ -45,7 +45,7 @@ help you with development through deployment and publication.
 ## Robots
 
 | Name  | Repository | Description | Documentation |
-| ----- | -----------|---------------|
+| ----- | -----------|-------------|---------------|
 | Expfactory Robots | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [https://expfactory.github.io/integration-robots](https://expfactory.github.io/integration-robots) |
 | Whedon | [openbases/whedon](https://www.github.com/openbases/whedon) | JosS Github Helper Robot | [https://www.github.com/openbases/whedon](https://www.github.com/openbases/whedon) |
 | Whedon Python | https://www.github.com/openbases/whedon-python | Helper functions for Whedon | https://openbases.github.io/whedon-python/ |
