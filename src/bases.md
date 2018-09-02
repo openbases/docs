@@ -48,8 +48,8 @@ help you with development through deployment and publication.
 | ----- | -----------|-------------|---------------|
 | Expfactory Robots | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [https://expfactory.github.io/integration-robots](https://expfactory.github.io/integration-robots) |
 | Whedon | [openbases/whedon](https://www.github.com/openbases/whedon) | JosS Github Helper Robot | [https://www.github.com/openbases/whedon](https://www.github.com/openbases/whedon) |
-| Whedon Python | https://www.github.com/openbases/whedon-python | Helper functions for Whedon | https://openbases.github.io/whedon-python/ |
-| Whedon Docker | https://www.github.com/openbases/whedon | Dockerized Whedon and Python Helpers | https://www.github.com/openbases/whedon |
+| Whedon Python | [openbases/whedon-python][https://www.github.com/openbases/whedon-python) | Helper functions for Whedon | https://openbases.github.io/whedon-python/ |
+| Whedon Docker | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | https://www.github.com/openbases/whedon |
 
 ## Reproducible Deployments and Data Archive
 
