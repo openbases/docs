@@ -28,7 +28,7 @@ develop --> test --> build --> deploy --> publish
 The bases are intended for researchers, academics, and software developers alike.
 All templates are geared toward publication in the **Journal of Open Research Software.**
 
-## Journal of Open Research Software
+## Journal of Open Research Experiments
 
 If you are visiting this site, you are likely a **(1) Researcher**, **(2) Academic**, and/or **(3) Software Developer**.  Here are your stories:
 
