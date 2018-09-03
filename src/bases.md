@@ -47,16 +47,16 @@ help you with development through deployment and publication.
 | Name  | Repository | Description | Documentation |
 | ----- | -----------|-------------|---------------|
 | Expfactory Robots | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [https://expfactory.github.io/integration-robots](https://expfactory.github.io/integration-robots) |
-| Whedon | [openbases/whedon](https://www.github.com/openbases/whedon) | JosS Github Helper Robot | [https://www.github.com/openbases/whedon](https://www.github.com/openbases/whedon) |
-| Whedon Python | [openbases/whedon-python][https://www.github.com/openbases/whedon-python) | Helper functions for Whedon | https://openbases.github.io/whedon-python/ |
-| Whedon Docker | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | https://www.github.com/openbases/whedon |
+| Whedon | [openbases/whedon](https://www.github.com/openbases/whedon) | JosS Github Helper Robot | [docs](https://www.github.com/openbases/whedon) |
+| Whedon Python | [openbases/whedon-python](https://www.github.com/openbases/whedon-python) | Helper functions for Whedon | [docs](https://openbases.github.io/whedon-python/) |
+| Whedon Docker | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | [docs](https://www.github.com/openbases/whedon) |
 
 
 ## Documentation
 
 | Name  | Repository | Description |
 | ----- | -----------|-------------|
-| Open Bases Jekyll Theme | [openbases/openbases-jekyll-theme](https://github.com/openbases/openbases-jekyll-theme) | A starter template for a "docs" folder for Github Pages |
+| Open Bases Jekyll Theme | [openbases/openbases-jekyll-theme](https://github.com/openbases/openbases-jekyll-theme) | Template for a "docs" folder for Github Pages |
 
 
 ## Reproducible Deployments and Data Archive
