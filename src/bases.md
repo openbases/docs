@@ -46,10 +46,10 @@ help you with development through deployment and publication.
 
 | Name  | Repository | Description | Documentation |
 | ----- | -----------|-------------|---------------|
-| Expfactory Robots | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [https://expfactory.github.io/integration-robots](https://expfactory.github.io/integration-robots) |
-| Whedon | [openbases/whedon](https://www.github.com/openbases/whedon) | JosS Github Helper Robot | [docs](https://www.github.com/openbases/whedon) |
-| Whedon Python | [openbases/whedon-python](https://www.github.com/openbases/whedon-python) | Helper functions for Whedon | [docs](https://openbases.github.io/whedon-python/) |
-| Whedon Docker | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | [docs](https://www.github.com/openbases/whedon) |
+| Expfactory Robots | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [Github Docs](https://expfactory.github.io/integration-robots) |
+| Whedon | [openbases/whedon](https://www.github.com/openbases/whedon) | JosS Github Helper Robot | [Github Docs](https://www.github.com/openbases/whedon) |
+| Whedon Python | [openbases/whedon-python](https://www.github.com/openbases/whedon-python) | Helper functions for Whedon | [Github Docs](https://openbases.github.io/whedon-python/) |
+| Whedon Docker | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | [Github Docs](https://www.github.com/openbases/whedon) |
 
 
 ## Documentation
