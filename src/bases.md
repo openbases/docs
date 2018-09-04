@@ -1,8 +1,8 @@
 # Open Bases
 
 An open base template is a combination of components, including experiment
-templates, testing tools, and deployment options to produce a full development
-through publication reproducible workflow. A high level might look like this:
+templates, testing tools, and deployment options to produce a partial or full 
+ reproducible workflow. A high level might look like this:
 
 ```
 develop --> version control --> build --> test --> deploy --> submission
@@ -11,24 +11,14 @@ develop --> version control --> build --> test --> deploy --> submission
 Given that you have a contribution, meaning something you are developing like
 an experiment, and your goal is submission, coinciding with a set of
 steps that get you from the start of your work to a tested, version controlled,
-reproducible submission, that's the job of the open bases.
+reproducible submission, that's the job of the open bases. An open base can also
+be as simple as sharing a rendered paper pdf in a Github repository programmatically.
 
-## Definitions
-
-You will most likely be interested to grab an open base template that is a combination
-of components that fit your needs based on a desired submission and inputs to it. A template
-is ready to go to have you "plug in" your stuff. An open base can also serve as
-more of a component (and make up a step in a template) such as the experiment software,
-testing containers, or similar. Template and/or components can be tagged easily
-with categories to give them a nice summary, and a "quick glance" understanding
-when installed in a Github repository. 
-
+## Base Types
 These base types can coincide with either a full template to achieve some goal, or a
 component that is a step within. The groupings below are tags to describe what the base is or does,
 and you might see them as the prefix for Github repository names (e.g. `experiment-stroop`)
 or as badges in a template repository to describe the content.
-
-## Base Types
 
 ### Builder
 
