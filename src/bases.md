@@ -15,74 +15,53 @@ reproducible submission, that's the job of the open bases.
 
 ## Definitions
 
-You will most likely be interested to grab a [Template](#template) that is a combination
+You will most likely be interested to grab an open base template that is a combination
 of components that fit your needs based on a desired submission and inputs to it. A template
-is ready to go to have you "plug in" your stuff. The [Components](#components) 
-described below are the guts of the templates, such as the experiment software,
+is ready to go to have you "plug in" your stuff. An open base can also serve as
+more of a component (and make up a step in a template) such as the experiment software,
 testing containers, or similar. Template and/or components can be tagged easily
 with categories to give them a nice summary, and a "quick glance" understanding
-when installed in a Github repository. Here we will discuss
-definitions to help you better understand the bases.
+when installed in a Github repository. 
 
-### Base Types
-
-These base types can coincide with either a full [Template](#Template) or a
-[Component](#Component) to make them up. They are tags to describe what the base is or does,
+These base types can coincide with either a full template to achieve some goal, or a
+component that is a step within. The groupings below are tags to describe what the base is or does,
 and you might see them as the prefix for Github repository names (e.g. `experiment-stroop`)
 or as badges in a template repository to describe the content.
 
-!!! info "Submission"
-    typically consists of a set of steps (components) that get you from something you are developing to a programmatic paper submission. This might mean generating a container for your content, running an analysis, and then testing and submitting data and/or a manuscript.
+## Base Types
 
-!!! info "Builder"
-    is a tool optimized for the build step. You might want to create an experiment, deploy a container to Github pages and documentation to Github Pages, but not submit to a journal.
-
-!!! info "Paper"
-    refers to something like a PDF or other rendered content that might be used in a submission. Examples are PDFs, markdown content, or articles.
-
-!!! info "Experiment"
-    typically refers to a web based experiment, meaning some static content that can be dropped on a web server to collect data.
-
-!!! info "openbases"
-
-    a special base type for any kind of template that is for open bases developers. For examples, the [openbases-jekyll-theme](https://www.github.com/openbases/openbases-jekyll-theme) can be easily dropped in a Github "docs" folder to render documentation for a new component repository.
-
-!!! info "Testing"
-    functions or software for continuous integration (or similar) testing purposes. For example, for experiments, we have robots to test static and runtime web-based experiments.
-
-!!! info "Library"
-    refers to software used within a base, such as LabJS or JSPsych for an experiment. These categories are shown here and used as tags, but aren't common to be found as openbases repositories. They are commonly other open source software.
-
-!!! info "Data"
-    are components to help with archive of data.
-
-
-## Templates
-
-### Builders
+### Builder
 
 Each of the following is a builder template, typically including all steps to
 help you with development through deployment. These builders might assist with
-generating a submission, but aren't intended for it.
+generating a submission, but may not be intended for it.
+
 
 | Name  | Repository | Documentation |
 | ----- | -----------|---------------|
 | Builder Whedon | [openbases/builder-whedon](https://www.github.com/openbases/builder-whedon) | JosS Paper Builder Robot | [Github Docs](https://www.github.com/openbases/builder-whedon) |
 
+
 <hr>
+
 
 ### Submission
 
-Each of the following is a submission template, typically including all steps to
-help you with development through deployment and publication.
+Submission open bases typically consist of a set of steps (components) that get you from something you are developing to a programmatic paper submission. This might mean generating a container for your content, running an analysis, and then testing and submitting data and/or a manuscript.
 
 
 <hr>
 
-## Components
+
+### Paper
+"Paper" refers to something like a PDF or other rendered content that might be used in a submission. Examples are PDFs, markdown content, or articles.
 
 
-### Libraries
+<hr>
+
+
+### Library
+refers to software used within a base, such as LabJS or JSPsych for an experiment. These categories are shown here and used as tags, but aren't common to be found as openbases repositories. They are commonly other open source software.
 
 | Name  | Repository | Documentation |
 | ----- | -----------|---------------|
@@ -91,7 +70,12 @@ help you with development through deployment and publication.
 | Expfactory |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | [Github Docs](https://expfactory.github.io/) |
 | Whedon |[openjournals/whedon](https://github.com/openjournals/whedon)  | [Github docs](https://www.github.com/openjournals/whedon) |
 
-### Experiment Templates
+
+<hr>
+
+
+### Experiment
+"Experiment" typically refers to a web based experiment, meaning some static content that can be dropped on a web server to collect data.
 
 | Name  | Repository | Documentation |
 | ----- | -----------|---------------|
@@ -99,7 +83,12 @@ help you with development through deployment and publication.
 | Survey Builder | [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [Github Docs](https://expfactory.github.io/integration-surveys) |
 
 
+<hr>
+
+
 ### Testing
+functions or software for continuous integration (or similar) testing purposes. For example, for experiments, we have robots to test static and runtime web-based experiments.
+
 
 | Name  | Repository | Description | Documentation |
 | ----- | -----------|-------------|---------------|
@@ -108,14 +97,27 @@ help you with development through deployment and publication.
 | Whedon Docker | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | [Github Docs](https://www.github.com/openbases/whedon) and [Manifests](https://openbases.github.io/whedon/) |
 
 
-### Documentation
+<hr>
+
+## Documentation
+
+
+<hr>
+
+## Openbases
+
+a special base type for any kind of template that is for open bases developers. For examples, the [openbases-jekyll-theme](https://www.github.com/openbases/openbases-jekyll-theme) can be easily dropped in a Github "docs" folder to render documentation for a new component repository.
 
 | Name  | Repository | Description |
 | ----- | -----------|-------------|
 | Open Bases Jekyll Theme | [openbases/openbases-jekyll-theme](https://github.com/openbases/openbases-jekyll-theme) | Template for a "docs" folder for Github Pages |
 
 
+<hr>
+
+
 ### Data Archive
+are components to help with archive of data.
 
 | Name  | Repository | Documentation |
 | ----- | -----------|---------------|
