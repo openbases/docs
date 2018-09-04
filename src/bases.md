@@ -31,43 +31,49 @@ These base types can coincide with either a full [Template](#Template) or a
 and you might see them as the prefix for Github repository names (e.g. `experiment-stroop`)
 or as badges in a template repository to describe the content.
 
- - **submission**: typically consists of a set of steps (components) that get you from something you are developing to a programmatic paper submission. This might mean generating a container for your content, running an analysis, and then testing and submitting data and/or a manuscript.
- - **builder**: is all steps up until a submission. You might want to create an experiment, deploy a container to Github pages and documentation to Github Pages, but not submit to a journal
- - **paper**: refers to something like a PDF or other rendered content that might be used in a submission. Examples are PDFs, markdown content, or articles.
- - **experiment**: typically refers to a web based experiment, meaning some static content that can be dropped on a web server to collect data.
- - **openbases**: is a special base type for any kind of template that is for open bases developers. For examples, the [openbases-jekyll-theme](https://www.github.com/openbases/openbases-jekyll-theme) can be easily dropped in a Github "docs" folder to render documentation for a new component repository.
- - **testing**: is functions or software for continuous integration (or similar) testing purposes. For example, for experiments, we have robots to test static and runtime web-based experiments.
- - **library**: refers to software used within a base, such as LabJS or JSPsych for an experiment. These categories are shown here and used as tags, but aren't common to be found as openbases repositories. They are commonly other open source software.
- - **data**: are components to help with archive of data.
+!!! info "Submission"
+    typically consists of a set of steps (components) that get you from something you are developing to a programmatic paper submission. This might mean generating a container for your content, running an analysis, and then testing and submitting data and/or a manuscript.
+
+!!! info "Builder"
+    is a tool optimized for the build step. You might want to create an experiment, deploy a container to Github pages and documentation to Github Pages, but not submit to a journal.
+
+!!! info "Paper"
+    refers to something like a PDF or other rendered content that might be used in a submission. Examples are PDFs, markdown content, or articles.
+
+!!! info "Experiment"
+    typically refers to a web based experiment, meaning some static content that can be dropped on a web server to collect data.
+
+!!! info "openbases"
+
+    a special base type for any kind of template that is for open bases developers. For examples, the [openbases-jekyll-theme](https://www.github.com/openbases/openbases-jekyll-theme) can be easily dropped in a Github "docs" folder to render documentation for a new component repository.
+
+!!! info "Testing"
+    functions or software for continuous integration (or similar) testing purposes. For example, for experiments, we have robots to test static and runtime web-based experiments.
+
+!!! info "Library"
+    refers to software used within a base, such as LabJS or JSPsych for an experiment. These categories are shown here and used as tags, but aren't common to be found as openbases repositories. They are commonly other open source software.
+
+!!! info "Data"
+    are components to help with archive of data.
+
 
 ## Templates
 
 ### Builders
 
 Each of the following is a builder template, typically including all steps to
-help you with development through deployment without publication.
+help you with development through deployment. These builders might assist with
+generating a submission, but aren't intended for it.
 
-
-!!! info "Labjs Builder"
-    Build your experiment with the LabJS builder interface, and export it into a Github 
-    repository that is ready to be connected to CircleCI and Docker Hub to build, deploy, 
-    and publish your experiment in the Journal of Open Research Experiments.
-
-!!! info "JsPsych Builder"
-    Build your experiment with the JsPsych builder interface, and export it into a Github 
-    repository that is ready to be connected to CircleCI and Docker Hub to build, deploy, 
-    and publish your experiment in the Journal of Open Research Experiments.
-
-!!! info "Expfactory Builder"
-    Start with an experiment from the Experiment Factory Library, and add it to a Github
-    repository to connect to CircleCI and Docker Hub to build, deploy, 
-    and publish your experiment in the Journal of Open Research Experiments.
+| Name  | Repository | Documentation |
+| ----- | -----------|---------------|
+| Builder Whedon | [openbases/builder-whedon](https://www.github.com/openbases/builder-whedon) | JosS Paper Builder Robot | [Github Docs](https://www.github.com/openbases/builder-whedon) |
 
 <hr>
 
 ### Submission
 
-Each of the following is a builder template, typically including all steps to
+Each of the following is a submission template, typically including all steps to
 help you with development through deployment and publication.
 
 
@@ -83,6 +89,7 @@ help you with development through deployment and publication.
 | LabJS | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  | [labjs.readthedocs.io](https://labjs.readthedocs.io) |
 | JSPsych |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  | [https://www.jspsych.org/](https://www.jspsych.org/) |
 | Expfactory |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | [Github Docs](https://expfactory.github.io/) |
+| Whedon |[openjournals/whedon](https://github.com/openjournals/whedon)  | [Github docs](https://www.github.com/openjournals/whedon) |
 
 ### Experiment Templates
 
@@ -97,7 +104,6 @@ help you with development through deployment and publication.
 | Name  | Repository | Description | Documentation |
 | ----- | -----------|-------------|---------------|
 | Expfactory Robots | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [Github Docs](https://expfactory.github.io/integration-robots) |
-| Whedon | [openbases/whedon](https://www.github.com/openbases/whedon) | JosS Github Helper Robot | [Github Docs](https://www.github.com/openbases/whedon) |
 | Whedon Python | [openbases/whedon-python](https://www.github.com/openbases/whedon-python) | Helper functions for Whedon | [Github Docs](https://openbases.github.io/whedon-python/) |
 | Whedon Docker | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | [Github Docs](https://www.github.com/openbases/whedon) and [Manifests](https://openbases.github.io/whedon/) |
 
