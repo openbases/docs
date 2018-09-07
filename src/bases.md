@@ -40,7 +40,7 @@ beautifully on Github Pages.
 
 
 | Name  | Repository | Description | Preview |
-| ----- | -----------|---------------|
+| ----- | -----------|---------------|-------|
 | Paper Whedon | [openbases/paper-whedon](https://www.github.com/openbases/paper-whedon) | Generate PDF from markdown | [gh-pages](https://openbases.github.io/paper-whedon) |
 
 
