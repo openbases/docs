@@ -12,7 +12,10 @@ Given that you have a contribution, meaning something you are developing like
 an experiment, and your goal is submission, coinciding with a set of
 steps that get you from the start of your work to a tested, version controlled,
 reproducible submission, that's the job of the open bases. An open base can also
-be as simple as sharing a rendered paper pdf in a Github repository programmatically.
+be as simple as [sharing a rendered paper pdf](https://www.github.com/openbases/builder-pdf) 
+in a Github repository programmatically, to 
+[creating an API](https://openbases.github.io/openbases-icons/preview) for a set of images.
+It's just a Github repository template that you can fork and customize for your need.
 
 !!! info "How do I know what base to use?"
     The easiest thing to do is read the description of the base type, and then
@@ -41,7 +44,7 @@ beautifully on Github Pages.
 
 | Name  | Repository | Description | Preview |
 | ----- | -----------|---------------|-------|
-| Paper Whedon | [openbases/paper-whedon](https://www.github.com/openbases/paper-whedon) | Generate PDF from markdown | [gh-pages](https://openbases.github.io/paper-whedon) |
+| Paper Builder | [openbases/builder-pdf](https://www.github.com/openbases/builder-pdf) | Generate PDF from markdown | [gh-pages](https://openbases.github.io/builder-pdf) |
 
 
 <hr>
@@ -80,21 +83,19 @@ refers to software used within a base, such as LabJS or JSPsych for an experimen
 
 <hr>
 
+### Resources
+
+| Name  | Badge | Repository | Description | Documentation |
+| ----- |-------| -----------|-------------|---------------|
+| Open Bases Icons | | [openbases/openbases-icons](https://www.github.com/openbases/openbases-icons) | Use or create your own static image API | [Preview](https://openbases.github.io/openbases-icons/preview) |
+
 
 ### Testing
 functions or software for continuous integration (or similar) testing purposes. For example, for experiments, we have robots to test static and runtime web-based experiments.
 
-
 | Name  | Badge | Repository | Description | Documentation |
 | ----- |-------| -----------|-------------|---------------|
 | Expfactory Robots | | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [Github Docs](https://expfactory.github.io/integration-robots) |
-| Whedon Python | | [openbases/whedon-python](https://www.github.com/openbases/whedon-python) | Helper functions for Whedon | [Github Docs](https://openbases.github.io/whedon-python/) |
-| Whedon Docker | | [openbases/whedon](https://www.github.com/openbases/whedon) | Dockerized Whedon and Python Helpers | [Github Docs](https://www.github.com/openbases/whedon) and [Manifests](https://openbases.github.io/whedon/) |
-
-
-<hr>
-
-## Documentation
 
 
 <hr>
@@ -105,7 +106,8 @@ A special base type for any kind of template that is for open bases developers. 
 
 | Name  | Repository | Description |
 | ----- | -----------|-------------|
-| Builder Whedon | [openbases/builder-whedon](https://www.github.com/openbases/builder-whedon) | JosS Paper Builder Robot | [Github Docs](https://www.github.com/openbases/builder-whedon) |
+| Open Bases PDF Builder | [openbases/openbases-pdf](https://www.github.com/openbases/openbases-pdf) | PDF Builder Base | [Github Docs](https://www.github.com/openbases/openbases-pdf) |
+| Open Bases Python | [openbases/openbases-python](https://www.github.com/openbases/openbases-python) | Python API for Open Bases | [Github Docs](https://www.github.com/openbases/openbases-python) |
 | Open Bases Jekyll Theme | [openbases/openbases-jekyll-theme](https://github.com/openbases/openbases-jekyll-theme) | "docs" folder for Github Pages |
 
 
