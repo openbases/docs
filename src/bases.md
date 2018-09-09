@@ -65,8 +65,8 @@ refers to software used within a base, such as LabJS or JSPsych for an experimen
 | ----- | ------|-----|---------------|
 | LabJS |  ![https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io](https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io) | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  | [labjs.readthedocs.io](https://labjs.readthedocs.io) |
 | JSPsych | ![https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F](https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F) |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  | [https://www.jspsych.org/](https://www.jspsych.org/) |
-| Expfactory | ![https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F](https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F) |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | [Github Docs](https://expfactory.github.io/) |
-| Whedon | ![https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon](https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon) | [openjournals/whedon](https://github.com/openjournals/whedon)  | [Github docs](https://www.github.com/openjournals/whedon) |
+| Expfactory | ![https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F](https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F) |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | [docs](https://expfactory.github.io/) |
+| Whedon | ![https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon](https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon) | [openjournals/whedon](https://github.com/openjournals/whedon)  | [docs](https://www.github.com/openjournals/whedon) |
 
 
 <hr>
@@ -77,8 +77,8 @@ refers to software used within a base, such as LabJS or JSPsych for an experimen
 
 | Name  | Badge | Repository | Documentation |
 | ----- | ------|------|---------------|
-| Experiment Factory Library | ![https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments](https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments) | [https://expfactory.github.io/experiments](https://expfactory.github.io/experiments) | [https://expfactory.github.io/generate](https://expfactory.github.io/generate) |
-| Survey Generator | ![https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey_generator](https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey-generator)| [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [Github Docs](https://expfactory.github.io/integration-surveys) |
+| Experiment Factory Library | ![https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments](https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments) | [expfactory/experiments](https://expfactory.github.io/experiments) | [docs](https://expfactory.github.io/generate) |
+| Survey Generator | ![https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey_generator](https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey-generator)| [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [docs](https://expfactory.github.io/integration-surveys) |
 
 
 <hr>
@@ -87,7 +87,7 @@ refers to software used within a base, such as LabJS or JSPsych for an experimen
 
 | Name  | Badge | Repository | Description | Documentation |
 | ----- |-------| -----------|-------------|---------------|
-| Open Bases Icons | ![https://img.shields.io/badge/resource-openbase_icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons](https://img.shields.io/badge/resource-openbase_icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons) | [openbases/openbases-icons](https://www.github.com/openbases/openbases-icons) | Use or create your own static image API | [Preview](https://openbases.github.io/openbases-icons/preview) |
+| Icons | ![https://img.shields.io/badge/resource-icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons](https://img.shields.io/badge/resource-icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons) | [openbases/openbases-icons](https://www.github.com/openbases/openbases-icons) | Use or create your own static image API | [Preview](https://openbases.github.io/openbases-icons/preview) |
 
 
 ### Testing
@@ -95,7 +95,7 @@ functions or software for continuous integration (or similar) testing purposes. 
 
 | Name  | Badge | Repository | Description | Documentation |
 | ----- |-------| -----------|-------------|---------------|
-| Expfactory Robots | ![https://img.shields.io/badge/testing-expfactory_robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots](https://img.shields.io/badge/testing-expfactory_robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots) | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [Github Docs](https://expfactory.github.io/integration-robots) |
+| Expfactory Robots | ![https://img.shields.io/badge/testing-expfactory_robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots](https://img.shields.io/badge/testing-expfactory_robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots) | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [docs](https://expfactory.github.io/integration-robots) |
 
 
 <hr>
@@ -106,8 +106,8 @@ A special base type for any kind of template that is for open bases developers. 
 
 | Name  | Badge | Repository | Description |
 | ----- | ------|-----|-------------|
-| Open Bases PDF Builder | ![https://img.shields.io/badge/openbases-pdf-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-pdf](https://img.shields.io/badge/openbases-pdf-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-pdf) | [openbases/openbases-pdf](https://www.github.com/openbases/openbases-pdf) | PDF Builder Base | [Github Docs](https://www.github.com/openbases/openbases-pdf) |
-| Open Bases Python | ![https://img.shields.io/badge/openbases-python-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-python](https://img.shields.io/badge/openbases-python-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-python) | [openbases/openbases-python](https://www.github.com/openbases/openbases-python) | Python API for Open Bases | [Github Docs](https://www.github.com/openbases/openbases-python) |
+| Open Bases PDF Builder | ![https://img.shields.io/badge/openbases-pdf-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-pdf](https://img.shields.io/badge/openbases-pdf-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-pdf) | [openbases/openbases-pdf](https://www.github.com/openbases/openbases-pdf) | PDF Builder Base | [docs](https://www.github.com/openbases/openbases-pdf) |
+| Open Bases Python | ![https://img.shields.io/badge/openbases-python-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-python](https://img.shields.io/badge/openbases-python-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-python) | [openbases/openbases-python](https://www.github.com/openbases/openbases-python) | Python API for Open Bases | [docs](https://www.github.com/openbases/openbases-python) |
 | Open Bases Jekyll Theme | ![https://img.shields.io/badge/openbases-jekyll_theme-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-jekyll-theme](https://img.shields.io/badge/openbases-jekyll_theme-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-jekyll-theme) | [openbases/openbases-jekyll-theme](https://github.com/openbases/openbases-jekyll-theme) | "docs" folder for Github Pages |
 
 
