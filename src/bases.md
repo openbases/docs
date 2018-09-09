@@ -42,9 +42,9 @@ of these bases if you want a PDF to build from a Github repository, and then ren
 beautifully on Github Pages.
 
 
-| Name  | Repository | Description | Preview |
-| ----- | -----------|---------------|-------|
-| Paper Builder | [openbases/builder-pdf](https://www.github.com/openbases/builder-pdf) | Generate PDF from markdown | [gh-pages](https://openbases.github.io/builder-pdf) |
+| Name  | Badge | Repository | Description | Preview |
+| ----- | ----- |------|---------------|-------|
+| Paper Builder | ![https://img.shields.io/badge/paper-builder-pdf-%231ab170.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fbuilder-pdf](https://img.shields.io/badge/paper-builder-pdf-%231ab170.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fbuilder-pdf) | [openbases/builder-pdf](https://www.github.com/openbases/builder-pdf) | Generate PDF from markdown | [gh-pages](https://openbases.github.io/builder-pdf) |
 
 
 <hr>
@@ -61,12 +61,12 @@ Submission open bases typically consist of a set of steps (components) that get 
 ### Library
 refers to software used within a base, such as LabJS or JSPsych for an experiment. These categories are shown here and used as tags, but aren't common to be found as openbases repositories. They are commonly other open source software.
 
-| Name  | Repository | Documentation |
-| ----- | -----------|---------------|
-| LabJS | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  | [labjs.readthedocs.io](https://labjs.readthedocs.io) |
-| JSPsych |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  | [https://www.jspsych.org/](https://www.jspsych.org/) |
-| Expfactory |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | [Github Docs](https://expfactory.github.io/) |
-| Whedon |[openjournals/whedon](https://github.com/openjournals/whedon)  | [Github docs](https://www.github.com/openjournals/whedon) |
+| Name  | Badge | Repository | Documentation |
+| ----- | ------|-----|---------------|
+| LabJS |  ![https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io](https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io) | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  | [labjs.readthedocs.io](https://labjs.readthedocs.io) |
+| JSPsych | ![https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F](https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F) |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  | [https://www.jspsych.org/](https://www.jspsych.org/) |
+| Expfactory | ![https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F](https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F) |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | [Github Docs](https://expfactory.github.io/) |
+| Whedon | ![https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon](https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon) | [openjournals/whedon](https://github.com/openjournals/whedon)  | [Github docs](https://www.github.com/openjournals/whedon) |
 
 
 <hr>
@@ -75,10 +75,10 @@ refers to software used within a base, such as LabJS or JSPsych for an experimen
 ### Experiment
 "Experiment" typically refers to a web based experiment, meaning some static content that can be dropped on a web server to collect data.
 
-| Name  | Repository | Documentation |
+| Name  | Badge | Repository | Documentation |
 | ----- | -----------|---------------|
-| Experiment Factory Library | [https://expfactory.github.io/experiments](https://expfactory.github.io/experiments) | [https://expfactory.github.io/generate](https://expfactory.github.io/generate) |
-| Survey Builder | [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [Github Docs](https://expfactory.github.io/integration-surveys) |
+| Experiment Factory Library | ![https://img.shields.io/badge/experiment-expfactory-experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments](https://img.shields.io/badge/experiment-expfactory-experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments) | [https://expfactory.github.io/experiments](https://expfactory.github.io/experiments) | [https://expfactory.github.io/generate](https://expfactory.github.io/generate) |
+| Survey Generator | ![https://img.shields.io/badge/experiment-survey-generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey-generator](https://img.shields.io/badge/experiment-survey-generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey-generator)| [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [Github Docs](https://expfactory.github.io/integration-surveys) |
 
 
 <hr>
@@ -87,7 +87,7 @@ refers to software used within a base, such as LabJS or JSPsych for an experimen
 
 | Name  | Badge | Repository | Description | Documentation |
 | ----- |-------| -----------|-------------|---------------|
-| Open Bases Icons | | [openbases/openbases-icons](https://www.github.com/openbases/openbases-icons) | Use or create your own static image API | [Preview](https://openbases.github.io/openbases-icons/preview) |
+| Open Bases Icons | ![https://img.shields.io/badge/resource-openbase-icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons](https://img.shields.io/badge/resource-openbase-icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons) | [openbases/openbases-icons](https://www.github.com/openbases/openbases-icons) | Use or create your own static image API | [Preview](https://openbases.github.io/openbases-icons/preview) |
 
 
 ### Testing
@@ -95,7 +95,7 @@ functions or software for continuous integration (or similar) testing purposes. 
 
 | Name  | Badge | Repository | Description | Documentation |
 | ----- |-------| -----------|-------------|---------------|
-| Expfactory Robots | | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [Github Docs](https://expfactory.github.io/integration-robots) |
+| Expfactory Robots | ![https://img.shields.io/badge/testing-expfactory-robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots](https://img.shields.io/badge/testing-expfactory-robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots) | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [Github Docs](https://expfactory.github.io/integration-robots) |
 
 
 <hr>
@@ -104,11 +104,11 @@ functions or software for continuous integration (or similar) testing purposes. 
 
 A special base type for any kind of template that is for open bases developers. For examples, the [openbases-jekyll-theme](https://www.github.com/openbases/openbases-jekyll-theme) can be easily dropped in a Github "docs" folder to render documentation for a new component repository, and `builder-whedon` is the builder for the actual `openbases/builder-whedon` container to drive other components.
 
-| Name  | Repository | Description |
-| ----- | -----------|-------------|
-| Open Bases PDF Builder | [openbases/openbases-pdf](https://www.github.com/openbases/openbases-pdf) | PDF Builder Base | [Github Docs](https://www.github.com/openbases/openbases-pdf) |
-| Open Bases Python | [openbases/openbases-python](https://www.github.com/openbases/openbases-python) | Python API for Open Bases | [Github Docs](https://www.github.com/openbases/openbases-python) |
-| Open Bases Jekyll Theme | [openbases/openbases-jekyll-theme](https://github.com/openbases/openbases-jekyll-theme) | "docs" folder for Github Pages |
+| Name  | Badge | Repository | Description |
+| ----- | ------|-----|-------------|
+| Open Bases PDF Builder | ![https://img.shields.io/badge/openbases-openbases-pdf-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-pdf](https://img.shields.io/badge/openbases-openbases-pdf-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-pdf) | [openbases/openbases-pdf](https://www.github.com/openbases/openbases-pdf) | PDF Builder Base | [Github Docs](https://www.github.com/openbases/openbases-pdf) |
+| Open Bases Python | ![https://img.shields.io/badge/openbases-openbases-python-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-python](https://img.shields.io/badge/openbases-openbases-python-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-python) | [openbases/openbases-python](https://www.github.com/openbases/openbases-python) | Python API for Open Bases | [Github Docs](https://www.github.com/openbases/openbases-python) |
+| Open Bases Jekyll Theme | ![https://img.shields.io/badge/openbases-openbases-jekyll-theme-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-jekyll-theme](https://img.shields.io/badge/openbases-openbases-jekyll-theme-%232196f3.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-jekyll-theme) | [openbases/openbases-jekyll-theme](https://github.com/openbases/openbases-jekyll-theme) | "docs" folder for Github Pages |
 
 
 <hr>
@@ -122,5 +122,3 @@ are components to help with archive of data.
 | Docker Hub ||  |
 | Github Pages |  |  |
 | Kaggle |  |  |
-
-
