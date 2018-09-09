@@ -76,9 +76,9 @@ refers to software used within a base, such as LabJS or JSPsych for an experimen
 "Experiment" typically refers to a web based experiment, meaning some static content that can be dropped on a web server to collect data.
 
 | Name  | Badge | Repository | Documentation |
-| ----- | -----------|---------------|
+| ----- | ------|------|---------------|
 | Experiment Factory Library | ![https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments](https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments) | [https://expfactory.github.io/experiments](https://expfactory.github.io/experiments) | [https://expfactory.github.io/generate](https://expfactory.github.io/generate) |
-| Survey Generator | ![https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey_generator](https://img.shields.io/badge/experiment-survey-generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey-generator)| [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [Github Docs](https://expfactory.github.io/integration-surveys) |
+| Survey Generator | ![https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey_generator](https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey-generator)| [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [Github Docs](https://expfactory.github.io/integration-surveys) |
 
 
 <hr>
