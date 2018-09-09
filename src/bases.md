@@ -61,12 +61,12 @@ Submission open bases typically consist of a set of steps (components) that get 
 ### Library
 refers to software used within a base, such as LabJS or JSPsych for an experiment. These categories are shown here and used as tags, but aren't common to be found as openbases repositories. They are commonly other open source software.
 
-| Name  | Badge | Repository |
-| ----- | ------|------------|
-| [LabJS](https://labjs.readthedocs.io) |  ![https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io](https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io) | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  |
-| [JSPsych](https://www.jspsych.org/) | ![https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F](https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F) |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  |
-| [Expfactory](https://expfactory.github.io/) | ![https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F](https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F) |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | 
-| [Whedon](https://www.github.com/openjournals/whedon) | ![https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon](https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon) | [openjournals/whedon](https://github.com/openjournals/whedon)  | 
+| Name  | Badge | Repository | Description |
+| ----- | ------|------------|--------------|
+| [LabJS](https://labjs.readthedocs.io) |  ![https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io](https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io) | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  | generate experiments |
+| [JSPsych](https://www.jspsych.org/) | ![https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F](https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F) |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  |  generate experiments |
+| [Expfactory](https://expfactory.github.io/) | ![https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F](https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F) |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | deploy experiments |
+| [Whedon](https://www.github.com/openjournals/whedon) | ![https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon](https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon) | [openjournals/whedon](https://github.com/openjournals/whedon)  | software publication |
 
 
 <hr>
