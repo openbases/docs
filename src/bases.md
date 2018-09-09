@@ -25,13 +25,13 @@ It's just a Github repository template that you can fork and customize for your 
     README.md provided by the repository.
 
 
-## Base Types
+# Base Types
 These base types can coincide with either a full template to achieve some goal, or a
 component that is a step within. The groupings below are tags to describe what the base is or does,
 and you might see them as the prefix for Github repository names (e.g. `experiment-stroop`)
 or as badges in a template repository to describe the content.
 
-### Paper
+## Paper
 
 "Paper" refers to something like a PDF or other rendered content that might be 
 used in a submission. Examples are PDFs, markdown content, or articles.
@@ -50,7 +50,7 @@ beautifully on Github Pages.
 <hr>
 
 
-### Submission
+## Submission
 
 Submission open bases typically consist of a set of steps (components) that get you from something you are developing to a programmatic paper submission. This might mean generating a container for your content, running an analysis, and then testing and submitting data and/or a manuscript.
 
@@ -61,41 +61,40 @@ Submission open bases typically consist of a set of steps (components) that get 
 ### Library
 refers to software used within a base, such as LabJS or JSPsych for an experiment. These categories are shown here and used as tags, but aren't common to be found as openbases repositories. They are commonly other open source software.
 
-| Name  | Badge | Repository | Documentation |
-| ----- | ------|-----|---------------|
-| LabJS |  ![https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io](https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io) | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  | [labjs.readthedocs.io](https://labjs.readthedocs.io) |
-| JSPsych | ![https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F](https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F) |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  | [https://www.jspsych.org/](https://www.jspsych.org/) |
-| Expfactory | ![https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F](https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F) |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | [docs](https://expfactory.github.io/) |
-| Whedon | ![https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon](https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon) | [openjournals/whedon](https://github.com/openjournals/whedon)  | [docs](https://www.github.com/openjournals/whedon) |
+| Name  | Badge | Repository |
+| ----- | ------|------------|
+| [LabJS](https://labjs.readthedocs.io) |  ![https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io](https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io) | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  |
+| [JSPsych](https://www.jspsych.org/) | ![https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F](https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F) |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  |
+| [Expfactory](https://expfactory.github.io/) | ![https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F](https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F) |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | 
+| [Whedon](https://www.github.com/openjournals/whedon) | ![https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon](https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon) | [openjournals/whedon](https://github.com/openjournals/whedon)  | 
 
 
 <hr>
 
 
-### Experiment
+## Experiment
 "Experiment" typically refers to a web based experiment, meaning some static content that can be dropped on a web server to collect data.
 
-| Name  | Badge | Repository | Documentation |
-| ----- | ------|------|---------------|
-| Experiment Factory Library | ![https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments](https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments) | [expfactory/experiments](https://expfactory.github.io/experiments) | [docs](https://expfactory.github.io/generate) |
-| Survey Generator | ![https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey_generator](https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey-generator)| [expfactory/survey-generator](https://github.com/expfactory/survey-generator) | [docs](https://expfactory.github.io/integration-surveys) |
-
+| Name  | Badge | Repository |
+| ----- | ------|------------|
+| [Experiment Factory Library](https://expfactory.github.io/generate) | ![https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments](https://img.shields.io/badge/experiment-expfactory_experiments-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fexperiments) | [expfactory/experiments](https://expfactory.github.io/experiments)|
+| [Survey Generator](https://expfactory.github.io/integration-surveys) | ![https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey_generator](https://img.shields.io/badge/experiment-survey_generator-%23eaab1b.svg?style=flat&link=https%3A%2F%2Fgithub.com%2Fexpfactory%2Fsurvey-generator)| [expfactory/survey-generator](https://github.com/expfactory/survey-generator) |
 
 <hr>
 
-### Resources
+## Resources
 
-| Name  | Badge | Repository | Description | Documentation |
-| ----- |-------| -----------|-------------|---------------|
-| Icons | ![https://img.shields.io/badge/resource-icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons](https://img.shields.io/badge/resource-icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons) | [openbases/openbases-icons](https://www.github.com/openbases/openbases-icons) | Use or create your own static image API | [Preview](https://openbases.github.io/openbases-icons/preview) |
+| Name  | Badge | Repository | Description |
+| ----- |-------| -----------|-------------|
+| [Icons](https://openbases.github.io/openbases-icons/preview) | ![https://img.shields.io/badge/resource-icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons](https://img.shields.io/badge/resource-icons-blue.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenbases%2Fopenbases-icons) | [openbases/openbases-icons](https://www.github.com/openbases/openbases-icons) | static image API |
 
 
-### Testing
+## Testing
 functions or software for continuous integration (or similar) testing purposes. For example, for experiments, we have robots to test static and runtime web-based experiments.
 
-| Name  | Badge | Repository | Description | Documentation |
-| ----- |-------| -----------|-------------|---------------|
-| Expfactory Robots | ![https://img.shields.io/badge/testing-expfactory_robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots](https://img.shields.io/badge/testing-expfactory_robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots) | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser | [docs](https://expfactory.github.io/integration-robots) |
+| Name  | Badge | Repository | Description |
+| ----- |-------| -----------|-------------|
+| [Expfactory Robots](https://expfactory.github.io/integration-robots) | ![https://img.shields.io/badge/testing-expfactory_robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots](https://img.shields.io/badge/testing-expfactory_robots-%23783589.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2Fintegration-robots) | [expfactory/expfactory-robots](https://github.com/expfactory/expfactory-robots) | Automated web browser |
 
 
 <hr>
@@ -114,10 +113,10 @@ A special base type for any kind of template that is for open bases developers. 
 <hr>
 
 
-### Data Archive
+## Data Archive
 are components to help with archive of data.
 
-| Name  | Repository | Documentation |
+| Name  | Repository | Docs |
 | ----- | -----------|---------------|
 | Docker Hub ||  |
 | Github Pages |  |  |
