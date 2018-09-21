@@ -26,10 +26,25 @@ It's just a Github repository template that you can fork and customize for your 
 
 
 # Base Types
+
 These base types can coincide with either a full template to achieve some goal, or a
 component that is a step within. The groupings below are tags to describe what the base is or does,
 and you might see them as the prefix for Github repository names (e.g. `experiment-stroop`)
 or as badges in a template repository to describe the content.
+
+
+## Specification
+
+"Specification" refers to a language, ontology, or some other definition that might
+be used in open science. A good example is a tool to work with, generate, or otherwise
+interact with [schema.org](https://www.schema.org).
+
+| Name  | Badge | Repository | Description | Preview |
+| ----- | ----- |------|---------------|-------|
+| spec-template | ![https://img.shields.io/badge/spec-template-%23660000.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenschemas%2Fspec-template](https://img.shields.io/badge/spec-template-%23660000.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenschemas%2Fspec-template) | [openschemas/spec-template](https://www.github.com/openschemas/spec-template) | easily generate schema.org specification | [spec-container](https://www.github.com/openschemas/spec-container) |
+
+<hr>
+
 
 ## Paper
 
@@ -58,7 +73,8 @@ Submission open bases typically consist of a set of steps (components) that get 
 <hr>
 
 
-### Library
+## Library
+
 refers to software used within a base, such as LabJS or JSPsych for an experiment. These categories are shown here and used as tags, but aren't common to be found as openbases repositories. They are commonly other open source software.
 
 | Name  | Badge | Repository | Description |
