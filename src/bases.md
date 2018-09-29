@@ -71,7 +71,7 @@ Submission open bases typically consist of a set of steps (components) that get 
 
 | Name  | Badge | Description |
 | ----- | ------|-------------|
-|[Journal Open Source Software](https://www.github.com/openbases/submission-joss) | ![https://img.shields.io/badge/submission-joss-green.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io](https://img.shields.io/badge/submission-joss-green.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io) | | validate and preview your paper |
+|[Journal Open Source Software](https://www.github.com/openbases/submission-joss) | ![https://img.shields.io/badge/submission-joss-green.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io](https://img.shields.io/badge/submission-joss-green.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io) | validate and preview your paper |
 
 <hr>
 
