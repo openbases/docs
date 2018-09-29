@@ -69,6 +69,9 @@ beautifully on Github Pages.
 
 Submission open bases typically consist of a set of steps (components) that get you from something you are developing to a programmatic paper submission. This might mean generating a container for your content, running an analysis, and then testing and submitting data and/or a manuscript.
 
+| Name  | Badge | Description |
+| ----- | ------|-------------|
+|[Journal Open Source Software](https://www.github.com/openbases/submission-joss) | ![https://img.shields.io/badge/submission-joss-green.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io](https://img.shields.io/badge/submission-joss-green.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io) | | validate and preview your paper |
 
 <hr>
 
@@ -82,8 +85,6 @@ refers to software used within a base, such as LabJS or JSPsych for an experimen
 | [LabJS](https://labjs.readthedocs.io) |  ![https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io](https://img.shields.io/badge/library-labjs-%23ff69b4.svg?style=flat&link=https%3A%2F%2Flabjs.readthedocs.io) | [FelixHenninger/lab.js](https://github.com/FelixHenninger/lab.js)  | generate experiments |
 | [JSPsych](https://www.jspsych.org/) | ![https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F](https://img.shields.io/badge/library-jspsych-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.jspsych.org%2F) |[jspsych/jsPsych](https://github.com/jspsych/jsPsych)  |  generate experiments |
 | [Expfactory](https://expfactory.github.io/) | ![https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F](https://img.shields.io/badge/library-expactory-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fexpfactory.github.io%2F) |[expfactory/expfactory](https://github.com/expfactory/expfactory)  | deploy experiments |
-| [Whedon](https://www.github.com/openjournals/whedon) | ![https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon](https://img.shields.io/badge/library-whedon-%23ff69b4.svg?style=flat&link=https%3A%2F%2Fwww.github.com%2Fopenjournals%2Fwhedon) | [openjournals/whedon](https://github.com/openjournals/whedon)  | software publication |
-
 
 <hr>
 
