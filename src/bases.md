@@ -46,6 +46,21 @@ interact with [schema.org](https://www.schema.org).
 <hr>
 
 
+## Extractor
+
+An "extractor" refers to a template that can be used (possibly in combination with
+a specification) to extract and represent some set of metadata from an object. For example,
+the [openbases/extract-dockerfile](https://www.github.com/openbases/extract-dockerfile) has
+an example CircleCI setup to build and extract metadata from a Dockerfile (container recipe).
+
+
+| Name  | Badge | Repository | Description |
+| ----- | ----- |------|---------------|
+| openbases/extract-dockerfile |  ![https://img.shields.io/badge/openbases-extract_dockerfile-%232196f3.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io](https://img.shields.io/badge/openbases-extract_dockerfile-%232196f3.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io) | [openbases/extract-dockerfile](https://www.github.com/openbases/extract-dockerfile) | schema.org specification and extractor for a Dockerfile (ContainerRecipe) |
+
+<hr>
+
+
 ## Paper
 
 "Paper" refers to something like a PDF or other rendered content that might be 
