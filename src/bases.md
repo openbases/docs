@@ -56,7 +56,7 @@ an example CircleCI setup to build and extract metadata from a Dockerfile (conta
 
 | Name  | Badge | Repository | Description |
 | ----- | ----- |------|---------------|
-| openbases/extract-dockerfile |  ![https://img.shields.io/badge/openbases-extract_dockerfile-%232196f3.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io](https://img.shields.io/badge/openbases-extract_dockerfile-%232196f3.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io) | [openbases/extract-dockerfile](https://www.github.com/openbases/extract-dockerfile) | schema.org specification and extractor for a Dockerfile (ContainerRecipe) |
+| extract-dockerfile |  ![https://img.shields.io/badge/openbases-extract_dockerfile-%232196f3.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io](https://img.shields.io/badge/openbases-extract_dockerfile-%232196f3.svg?style=flat&link=https%3A%2F%2Fopenbases.github.io) | [openbases/extract-dockerfile](https://www.github.com/openbases/extract-dockerfile) | schema.org extractor for Dockerfile |
 
 <hr>
 
