@@ -22,7 +22,7 @@ extra:
     - type: 'twitter'
       link: 'https://twitter.com/vsoch'
     - type: 'linkedin'
-      link: 'https://linkedin.com/in/vsochat'
+      link: 'https://www.linkedin.com/in/vsochat'
 extra_css:
   - 'assets/css/extra.css'
 extra_javascript:
